@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color: #5D5D7D;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: 30%;
+    left: 136px;
+
+}
+
+.container-right {
+    display: inline-block;
+    background: #e5e5ea;
+    height: 100%;
+    width: 40%;
+    position: absolute;
+
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 140px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    border: none;
+    border-radius: 30px;
+    background: #9499EA;
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+a {
+    font-size: 28px;
+    width: 58px;
+    margin: 24px 41px 0 57px;
+    cursor: pointer;
+}
+
+.wk {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+    .container-left {
+        position: static;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .container-right {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+        position: static;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        max-width: 75vw;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: 268px;
+        height: 104px;
+        color: #5D5D7D;
+        text-align: center;
+        margin: 58px auto 0 auto;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 296px;
+        height: 96px;
+        color: #5D5D7D;
+        opacity: 0.6;
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    button {
+        display: block;
+        width: 269px;
+        height: 62px;
+        background: #9499EA;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    button:active {
+        opacity: 0.5;
+    }
+}
